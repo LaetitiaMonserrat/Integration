@@ -96,7 +96,7 @@ header nav a:hover {
   background-size: cover;
   padding: 20% 20% 5% 5%;
 }
-.article-left {
+.article-left div{
   background-color: #ff7043;
   color: white;
   padding: 1em;
@@ -150,7 +150,7 @@ footer{
 
 /* MEDIA QUERIES */
 @media all and (min-width: 400px){
-  .article-left {
+  .article-left div{
     padding: 2em;
   }
   #form p{
@@ -210,7 +210,7 @@ footer{
   .article-left, #form {
     padding: 1em 0;
   }
-  .article-left {
+  .article-left div{
     margin:40% 0 0 10%;
   }
   .region-main article div{
